@@ -1,0 +1,135 @@
+* {
+	-webkit-box-sizing: border-box ;
+	-moz-box-sizing: border-box ;
+	-ms-box-sizing: border-box ;
+	-o-box-sizing: border-box ;
+	box-sizing: border-box ;
+}
+body {
+	background-color: #222;
+	padding: 1% 2%;
+}
+.header-body {
+	height: 120px;
+	margin: 0;
+	padding: 1rem 0;
+}
+.header-body > img{
+	height: 75px;
+	margin: 0 1rem 0 0;
+	width: 75px;
+	float:left;
+}
+.header-body > h1 {
+	color: #e2a1e2;
+	font-size: 2rem;
+	margin: 0.3rem 2rem;
+}
+.header-body > h2 {
+	color: #fff;
+	font-size: 1rem;
+	margin: 0rem 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.header-body > h1 {
+		color: #e2a1e2;
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		margin: 0rem 2rem;
+	}
+	.header-body > h2 {
+		color: #fff;
+		font-size: 0.8rem;
+		line-height: 1rem;
+		margin: 0rem 2rem;
+	}
+
+	h3 {
+		font-size: 0.7rem;
+	}
+}
+
+.grid-container {
+	background-color: #f6e522;
+	margin:0;
+	padding:0;
+}
+.row {
+	background-color: #f6e522;
+	border: 1px solid #cdcdcd;
+	display: flex;
+	width: 100%;
+}
+.row > div {
+	font-style: italic;
+	padding-top: 1.8rem;
+	text-align: center;
+}
+.row > div > h3{
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.col-1 {
+	text-align: center;
+	height: 120px;
+	width: 8.33%;
+}
+.col-2 {
+	background-color: red;
+	height: 120px;
+	width: 16.66%;
+}
+.col-3 {
+	background-color: blue;
+	height: 120px;
+	width: 25%;
+}
+.col-4 {
+	background-color: orange;
+	height: 120px;
+	width: 33.33%;
+}
+.col-5 {
+	background-color: brown;
+	height: 120px;
+	width: 41.66%;
+}
+.col-6 {
+	background-color: black;
+	color: #fff;
+	height: 120px;
+	width: 50%;
+}
+.col-7 {
+	background-color: purple;
+	height: 120px;
+	width: 58.33%;
+}
+.col-8 {	
+	background-color: pink;
+	height: 120px;
+	width: 66.66%;
+}
+.col-9 {
+	background-color: gray;
+	height: 120px;
+	width: 75%;
+}
+.col-10 {
+	background-color: green;
+	height: 120px;
+	width: 83.33%;
+}
+.col-11 {
+	background-color: brown;
+	height: 120px;
+	width: 91.66%;
+}
+.col-12 {
+	background-color: violet;
+	height: 120px;
+	width: 100%;
+}
